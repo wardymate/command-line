@@ -1,0 +1,6 @@
+mv
+
+mv is used to move or rename files or directories.
+The command takes 2 parameters. the first is the source or original file/directory and the second is the destination.
+for example:
+mv oldfile newfile

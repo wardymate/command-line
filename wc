@@ -1,0 +1,11 @@
+wc
+wc is used to count the number of words in a file
+example
+wc sometext.txt
+10 675 3675
+
+this will return 3 figures. The first is the number of lines in the file. The second is the number of words in the file and the last is the number of charachters in the file.
+
+if you want to return just a specific number you can use the argument -l -w -m for the values respectively
+
+wc can be used with pipes where the output of the pipe is the file to be counted.

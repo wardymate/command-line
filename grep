@@ -1,0 +1,10 @@
+grep
+grep is used to find specific words, strings or lines of code within files.
+Grep takes 2 parameters the first is what you want to search for and the second is the file that you want to search in.
+example
+grep hello intro.txt
+
+You can also apply grep to the output of another command by piping the result to grep.
+example would be
+find ~ -name "*.txt" -print | grep README.
+here find will find all the .txt file and grep will print only those files with README.
